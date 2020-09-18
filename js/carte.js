@@ -18,6 +18,6 @@ function initializeMap(latitude, longitude, zoom, zoom_min, zoom_max)
         id: "mapbox/streets-v11",
         tileSize: 512,
         zoomOffset: -1,
-        accessToken: window.env["LEAFLET_TOKEN"]
+        accessToken: window.env.LEAFLET_TOKEN
     }).addTo(map);
 }
